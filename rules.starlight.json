@@ -37,6 +37,25 @@
 					]
 				}
 			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "doeshotter chat spam detector",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": true,
+					"mode": "contains",
+					"patterns": [
+						"youtube.com/@Doeshotterino",
+						"DoesHotterReturnsForMore!",
+						"DoesHotter DoesHotter DoesHotter DoesHotter DoesHotter DoesHotter"
+					]
+				}
+			}
 		}
 	]
 }
