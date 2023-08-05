@@ -8,8 +8,8 @@
         "title": "Starlights ainti omegatronic",
         "update_url": "https://github.com/Starlight788/tf_bot_detector/blob/8715f7daf27cc450a1ced62f2581c031329d1d81/rules.starlight.json"
     },
-        "rules": [
-            {
+    "rules": [
+        {
             "actions": {
                 "mark": [
                     "cheater"
