@@ -21,19 +21,15 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"OMEGAT\u0e37RONIC",
 						"OMEGATRONIC",
-						"OMEGAT?RONIC",
-						"O\u0e37",
-						"M\u0e37",
-						"E\u0e37",
-						"G\u0e37",
-						"T\u0e37",
-						"R\u0e37",
-						"N\u0e37",
-						"I\u0e37",
-						"C\u0e37",
-						"\u0e37"
+						"\u0e39",
+						"\u0e38",
+						"\u0e37",
+						"\u0e36",
+						"\u0e35",
+						"\u0e34",
+						"\u0e3a",
+						
 					]
 				}
 			}
