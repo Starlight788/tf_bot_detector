@@ -15,7 +15,7 @@
           "cheater"
         ]
       },
-      "description": "OMEGATืRONIC",
+      "description": "OMEGATRONIC bot.",
       "triggers": {
         "username_text_match": {
           "case_sensitive": false,
