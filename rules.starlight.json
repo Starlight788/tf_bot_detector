@@ -4,8 +4,8 @@
 		"authors": [
 			"Starlight788"
 		],
-		"description": "Blocks omegatronic.",
-		"title": "Starlights ainti omegatronic",
+		"description": "Blocks omegat ronic.",
+		"title": "Starlights ainti omegat ronic",
 		"update_url": "https://github.com/Starlight788/tf_bot_detector/blob/main/rules.starlight.json"
 	},
 	"rules": [
@@ -24,7 +24,6 @@
 						"OMEGAT\u0e37RONIC",
 						"OMEGATRONIC",
 						"OMEGAT?RONIC",
-						"OMEGATRONIC",
 						"O\u0e37",
 						"M\u0e37",
 						"E\u0e37",
