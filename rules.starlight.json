@@ -1,43 +1,42 @@
 {
-    "$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
-    "file_info": {
-        "authors": [
-            "Starlight788"
-        ],
-        "description": "Blocks omegatronic.",
-        "title": "Starlights ainti omegatronic",
-        "update_url": "https://github.com/Starlight788/tf_bot_detector/blob/8715f7daf27cc450a1ced62f2581c031329d1d81/rules.starlight.json"
-    },
-    "rules": [
-        {
-            "actions": {
-                "mark": [
-                    "cheater"
-                ]
-            },
-            "description": "OMEGATืRONIC",
-            "triggers": {
-                "username_text_match": {
-                    "case_sensitive": false,
-                    "mode": "contains",
-                    "patterns": [
-                        "OMEGATืRONIC",
-                        "OMEGATRONIC",
-                        "OMEGAT?RONIC",
-                        "OMEGATRONIC",
-                        "Oื",
-                        "Mื",
-                        "Eื",
-                        "Gื",
-                        "Tื",
-                        "Rื",
-                        "Nื",
-                        "Iื",
-                        "Cื"
-                    ]
-                }
-            }
-        }
-    ]
+	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
+	"file_info": {
+		"authors": [
+			"Starlight788"
+		],
+		"description": "Blocks omegatronic.",
+		"title": "Starlights ainti omegatronic",
+		"update_url": "https://github.com/Starlight788/tf_bot_detector/blob/main/rules.starlight.json"
+	},
+	"rules": [
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "OMEGAT\u0e37RONIC",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"OMEGAT\u0e37RONIC",
+						"OMEGATRONIC",
+						"OMEGAT?RONIC",
+						"OMEGATRONIC",
+						"O\u0e37",
+						"M\u0e37",
+						"E\u0e37",
+						"G\u0e37",
+						"T\u0e37",
+						"R\u0e37",
+						"N\u0e37",
+						"I\u0e37",
+						"C\u0e37"
+					]
+				}
+			}
+		}
+	]
 }
-
