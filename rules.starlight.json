@@ -4,8 +4,8 @@
 		"authors": [
 			"Starlight788"
 		],
-		"description": "Custom Blocklist for newer bots on the east coast",
-		"title": "Starlights Custom Block list",
+		"description": "Blocks omegat ronic.",
+		"title": "Starlights ainti omegat ronic",
 		"update_url": "https://raw.githubusercontent.com/Starlight788/tf_bot_detector/main/rules.starlight.json"
 	},
 	"rules": [
@@ -72,7 +72,7 @@
 		{
 			"actions": {
 				"mark": [
-					"cheater"
+					"racist"
 				]
 			},
 			"description": "Slur Detector",
@@ -82,7 +82,26 @@
 					"mode": "contains",
 					"patterns": [
 						"faggot",
-						"fag"
+						"fag",
+						"tranny",
+						"trannie"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "Religion bot",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"bitchute.com"
 					]
 				}
 			}
