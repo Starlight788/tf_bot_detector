@@ -105,6 +105,23 @@
 					]
 				}
 			}
+		}.
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "Shoppy bot stopper",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"shoppy"
+					]
+				}
+			}
 		}
 	]
 }
